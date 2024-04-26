@@ -1,12 +1,5 @@
 
-<!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-*/ -->
+
 <?php  
 
 // Connect to the Database 
@@ -98,24 +91,10 @@ else{
 
  }
 ?>
-<!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-*/ -->
+
 <!doctype html>
 <html lang="en">
-<!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-*/ -->
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -132,14 +111,7 @@ for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@
 </head>
 
 <body>
- <!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-*/ -->
+
 
   <!-- Edit Modal -->
   <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel"
@@ -173,14 +145,7 @@ for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@
       </div>
     </div>
   </div>
-<!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-*/ -->
+
 <!-- Navigation bar start  -->
 <nav class="navbar navbar-expand-lg navbar-dark" style="background: black;">
   <a class="navbar-brand" href="#"><img src="assets/images/logo.png"width="50px"></a>
@@ -196,14 +161,7 @@ for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@
       <li class="nav-item">
         <a class="nav-link" href="id-card.php">ID Card Genarator</a>
       </li>
-<!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-*/ -->
+
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -222,14 +180,7 @@ for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@
     </button>
   </div>";
   }
-  ?><!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-*/ -->
+  ?>
   <?php
   if($delete){
     echo "<div class='alert alert-success alert-dismissible fade show' role='alert'>
@@ -249,14 +200,7 @@ for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@
     </button>
   </div>";
   }
-  ?><!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-*/ -->
+  ?>
    <?php
   if($empty){
     echo "<div class='alert alert-warning alert-dismissible fade show' role='alert'>
@@ -266,14 +210,7 @@ for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@
     </button>
   </div>";
   }
-  ?><!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-*/ -->
+  ?>
      <?php
   if($already_card){
     echo "<div class='alert alert-warning alert-dismissible fade show' role='alert'>
@@ -303,14 +240,7 @@ for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@
       <div class="form-group col-md-6">
         <label for="inputCity">Student Name</label>
         <input type="text" name="name" class="form-control" id="inputCity">
-      </div><!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-*/ -->
+      </div>
       <div class="form-group col-md-4">
         <label for="inputState">Class / Grade</label>
         <select name="grade" class="form-control">
@@ -328,14 +258,7 @@ for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@
         <label for="inputZip">Date Of Birth</label>
         <input type="date" name="dob" class="form-control">
       </div>
-    </div><!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-*/ -->
+    </div>
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="inputCity">Address</label>
@@ -350,14 +273,7 @@ for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@
         <input type="date" name="exp_date" class="form-control">
       </div>
     </div>
-      <!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-*/ -->
+
       <div class="form-row">
         <div class="form-group col-md-3">
           <label for="id_no">ID Card No.</label>
@@ -376,14 +292,7 @@ for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@
     </form>
   </div>
 </div>
-<!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-*/ -->
+
   <div class="container my-4">
 
 
@@ -395,14 +304,7 @@ for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@
           <th scope="col">ID Card No.</th>
           <th scope="col">Actions</th>
         </tr>
-      </thead><!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-*/ -->
+      </thead>
       <tbody>
         <?php 
           $sql = "SELECT * FROM `cards` order by 1 DESC";
@@ -483,12 +385,5 @@ for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@
     })
   </script>
 </body>
-<!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-*/ -->
+
 </html>
