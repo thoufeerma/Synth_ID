@@ -63,10 +63,6 @@ $generator->generateIDCard($info, "output/id_card.png");
 
 Contributions to Synth ID are welcome! If you encounter any issues or have suggestions for improvements, please open an issue on the GitHub repository.
 
-## License
-
-This project is licensed under the MIT License
-
 
 ## Contact
 
@@ -74,7 +70,7 @@ For questions or inquiries, feel free to contact the project maintainers:
 arfanthafseer@gmail.com
 navaneethnandakumar12@gmail.com
 thoufeerma@gmail.com
-
+syedfarhanpn@gmail.com
 
 ---
 
