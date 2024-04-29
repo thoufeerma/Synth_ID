@@ -70,7 +70,10 @@ This project is licensed under the MIT License
 
 ## Contact
 
-For questions or inquiries, feel free to contact the project maintainers
+For questions or inquiries, feel free to contact the project maintainers:
+arfanthafseer@gmail.com
+navaneethnandakumar12@gmail.com
+thoufeerma@gmail.com
 
 
 ---
