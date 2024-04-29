@@ -1,4 +1,4 @@
-<b>Synth ID</b>
+## "Synth ID"
 
 Synth ID is a PHP and SQL-based project designed to generate realistic-looking identification card (ID) images by providing information about the person. Whether you need placeholder images for testing, mock-ups, or simply to add a layer of realism to your projects, Synth ID can assist in creating customized ID card images swiftly and effortlessly.
 
