@@ -1,19 +1,61 @@
-# student-Employee-ID-Card-Generator-in-php
+## "Synth ID"
+Synth ID is a PHP and SQL-based project designed to generate realistic-looking identification card (ID) images by providing information about the person. Whether you need placeholder images for testing, mock-ups, or simply to add a layer of realism to your projects, Synth ID can assist in creating customized ID card images swiftly and effortlessly.
+## Features
+- **Customization:** Input personal information such as name, date of birth, address, and more to generate unique ID cards.
+- **Realism:** Generated ID card images closely resemble real-world ID cards, enhancing the authenticity of your projects.
+- **Versatility:** Suitable for a wide range of applications including software testing, graphic design mock-ups, and educational purposes.
+- **Easy to Use:** Simple PHP interface allows for quick generation of ID card images with minimal configuration.
+## Installation
+To use Synth ID, simply clone the repository to your local machine:
+```bash
+git clone https://github.com/your-username/synth-id.git
+```
+Then, navigate to the project directory:
+```bash
+cd synth-id
+```
+Ensure you have a PHP environment set up with access to a MySQL database. Import the provided SQL schema file `schema.sql` into your database to set up the necessary tables.
+## Usage
+Using Synth ID is straightforward. Modify the `generate_id.php` script to specify the desired information for the ID card, such as name, date of birth, and address. Then, run the script to generate the ID card image.
+```bash
+php generate_id.php
+```
+The generated ID card image will be saved in the `output` directory.
+## Example
+Here's a quick example of how to generate an ID card image:
+```php
+<?php
+require_once 'IDCardGenerator.php';
+// Initialize ID card generator
+$generator = new IDCardGenerator();
+// Specify information for the ID card
+$info = array(
+    "name" => "John Doe",
+    "date_of_birth" => "1990-01-01",
+    "address" => "123 Main Street, Anytown, USA",
+    // Add more information as needed
+);
+// Generate the ID card image
+$generator->generateIDCard($info, "output/id_card.png");
+?>
+```
+## Contributing
 
-## Database Name:
+Contributions to Synth ID are welcome! If you encounter any issues or have suggestions for improvements, please open an issue on the GitHub repository.
 
-- ccbd_id_card_genarator
+## License
 
-## Genarated ID Preview
+This project is licensed under the MIT License
 
-![staff-id-card (4)](https://user-images.githubusercontent.com/78216965/223390479-f3333371-0a9e-4919-b951-33af52a230d7.png)
 
-## Frontend
+## Contact
 
-![screencapture-localhost-student-Employee-ID-Card-Generator-in-php-main-index-php-2023-03-07-16_09_10](https://user-images.githubusercontent.com/78216965/223391167-1e43436d-298b-471b-83dc-87c19618cc07.png)
+For questions or inquiries, feel free to contact the project maintainers:
+arfanthafseer@gmail.com
+navaneethnandakumar12@gmail.com
+thoufeerma@gmail.com
 
-![screencapture-localhost-student-Employee-ID-Card-Generator-in-php-main-index-php-2023-03-07-16_08_58](https://user-images.githubusercontent.com/78216965/223391172-ee2ba997-377f-4f1a-8f2a-e396925f4387.png)
+syedfarhanpn@gmail.com
 
-![screencapture-localhost-student-Employee-ID-Card-Generator-in-php-main-id-card-php-2023-03-07-16_08_47](https://user-images.githubusercontent.com/78216965/223391173-82575cb9-38ea-4198-8cb6-37bfd49a29b5.png)
+---
 
-![screencapture-localhost-student-Employee-ID-Card-Generator-in-php-main-id-card-php-2023-03-07-16_08_32](https://user-images.githubusercontent.com/78216965/223391161-62db5bfd-1168-4937-9996-65102c7f8ed0.png)
