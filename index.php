@@ -112,8 +112,6 @@ else{
 
 <body>
 
-
-  <!-- Edit Modal -->
   <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -146,9 +144,8 @@ else{
     </div>
   </div>
 
-<!-- Navigation bar start  -->
 <nav class="navbar navbar-expand-lg navbar-dark" style="background: black;">
-  <a class="navbar-brand" href="#"><img src="assets/images/logo.png"width="50px"></a>
+  <a class="navbar-brand" href="#"><img src="assets/images/logo1.png"width="50px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -169,7 +166,7 @@ else{
     </form>
   </div>
 </nav>
-<!-- Navigation bar end  -->
+
 
   <?php
   if($insert){
@@ -181,6 +178,7 @@ else{
   </div>";
   }
   ?>
+
   <?php
   if($delete){
     echo "<div class='alert alert-success alert-dismissible fade show' role='alert'>
@@ -201,6 +199,7 @@ else{
   </div>";
   }
   ?>
+
    <?php
   if($empty){
     echo "<div class='alert alert-warning alert-dismissible fade show' role='alert'>
@@ -211,6 +210,7 @@ else{
   </div>";
   }
   ?>
+
      <?php
   if($already_card){
     echo "<div class='alert alert-warning alert-dismissible fade show' role='alert'>
@@ -222,7 +222,7 @@ else{
   }
   ?>
   <div style="padding-top: 10px;">
-                <marquee onMouseOver="this.stop()" onMouseOut="this.start()"> <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a> is the sole owner of this script. It is not suitable for personal use. And releasing it in demo version. Besides, it is being provided for free only from <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a>. For any of your problems contact us on <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a> facebook group / page or message <a href="https://www.facebook.com/dev.mhrony">MH RONY</a> on facebook. Thanks for staying with <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a>.</marquee>
+                <marquee onMouseOver="this.stop()" onMouseOut="this.start()"> <a>Welcome to Synth ID – Your Ultimate Identity Solution! Developed by the ingenious minds of Navaneeth, Thoufeer, Farhan, and Arfan. Experience seamless authentication like never before! Try Synth ID now!</a>.</marquee>
             </div>
   <div class="container my-4">
   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
@@ -241,6 +241,7 @@ else{
         <label for="inputCity">Student Name</label>
         <input type="text" name="name" class="form-control" id="inputCity">
       </div>
+
       <div class="form-group col-md-4">
         <label for="inputState">Class / Grade</label>
         <select name="grade" class="form-control">
@@ -259,6 +260,7 @@ else{
         <input type="date" name="dob" class="form-control">
       </div>
     </div>
+
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="inputCity">Address</label>
@@ -273,7 +275,7 @@ else{
         <input type="date" name="exp_date" class="form-control">
       </div>
     </div>
-
+      
       <div class="form-row">
         <div class="form-group col-md-3">
           <label for="id_no">ID Card No.</label>
@@ -293,6 +295,7 @@ else{
   </div>
 </div>
 
+
   <div class="container my-4">
 
 
@@ -305,6 +308,7 @@ else{
           <th scope="col">Actions</th>
         </tr>
       </thead>
+
       <tbody>
         <?php 
           $sql = "SELECT * FROM `cards` order by 1 DESC";
@@ -326,14 +330,13 @@ else{
     </table>
   </div>
   <hr>
-  <a href="https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw" type="button" class="btn btn-primary btn-lg btn-block" target="_blank">Please Like And Subscribe</a>
+  <a href="https://github.com/thoufeerma/Synth_ID" type="button" class="btn btn-primary btn-lg btn-block" target="_blank">Synth_ID</a>
   
   <div style="padding-top: 10px;">
-                <marquee onMouseOver="this.stop()" onMouseOut="this.start()"> <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a> is the sole owner of this script. It is not suitable for personal use. And releasing it in demo version. Besides, it is being provided for free only from <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a>. For any of your problems contact us on <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a> facebook group / page or message <a href="https://www.facebook.com/dev.mhrony">MH RONY</a> on facebook. Thanks for staying with <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a>.</marquee>
+                <marquee onMouseOver="this.stop()" onMouseOut="this.start()"> <a>Welcome to Synth ID – Your Ultimate Identity Solution! Developed by the ingenious minds of Navaneeth, Thoufeer, Farhan, and Arfan. Experience seamless authentication like never before! Try Synth ID now!</a>.</marquee> 
             </div>
   
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
@@ -376,7 +379,7 @@ else{
         if (confirm("Are you sure you want to delete this note!")) {
           console.log("yes");
           window.location = `index.php?delete=${sno}`;
-          // TODO: Create a form and use post request to submit a form
+          
         }
         else {
           console.log("no");

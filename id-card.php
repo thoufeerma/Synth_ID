@@ -47,7 +47,7 @@
                                                       <p style='font-size: 14px; color: black'>Web Developer</p>
                                                   </div>
                                                   <div class='box-3'>
-                                                      <img src='assets/images/logo.png' alt=''>
+                                                      <img src='assets/images/logo1.png' alt=''>
                                                   </div>
                                               </div>
                                   
@@ -77,22 +77,22 @@
                                                   <div class='info-3'>
                                                       <div class='email'>
                                                           <h4>Address</h4>
-                                                          <p>$address this is the final long address</p>
+                                                          <p>$address</p>
                                                       </div>
                                                       
                                                   </div>
                                                   <div class='info-4'>
                                                       <div class='sign'>
                                                           <br>
-                                                          <p style='font-size:12px;    margin-bottom: 8px;'>Your Signature</p>
-                                                        <p style='font-family: Dancing Script'>Code Camp BD</p>
+                                                          <p style='font-size:12px;    margin-bottom: 15px;'>Your Signature</p>
+                                                        <p style='font-family: Dancing Script'>$name</p>
 
                                                       </div>
                                                   </div>
                                                   <!-- id card end -->
                                         ";
                                         
-                          
+
                          }
      
 
@@ -100,7 +100,7 @@
             
         }
 
-             ?><!-- /*!
+             ?>
 
 <!doctype html>
 <html lang="en">
@@ -121,7 +121,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-<!-- /*!
 
 
 
@@ -152,7 +151,7 @@ hr.new2 {
      margin-top: -5px;
  }
 
-
+ 
  .container {
     width: 80vh;
     height: 45vh;
@@ -326,7 +325,7 @@ hr.new2 {
     width: 22vh;
     height: 5vh;
 }
-
+ 
 .email h4 {
     color: rgb(90 139 249);
     font-size:15px;
@@ -366,7 +365,7 @@ hr.new2 {
 
  <!-- Navigation bar start  -->
 <nav class="navbar navbar-expand-lg navbar-dark" style="background: black;">
-  <a class="navbar-brand" href="#"><img src="assets/images/logo.png" width="50px"></a>
+  <a class="navbar-brand" href="#"><img src="assets/images/logo1.png" width="50px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -387,9 +386,8 @@ hr.new2 {
   </div>
 </nav>
 
-<!-- Navigation bar end  -->
 <div style="padding-top: 10px;">
-                <marquee onMouseOver="this.stop()" onMouseOut="this.start()"> <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a> is the sole owner of this script. It is not suitable for personal use. And releasing it in demo version. Besides, it is being provided for free only from <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a>. For any of your problems contact us on <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a> facebook group / page or message <a href="https://www.facebook.com/dev.mhrony">MH RONY</a> on facebook. Thanks for staying with <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a>.</marquee>
+                <marquee onMouseOver="this.stop()" onMouseOut="this.start()"> <a>Welcome to Synth ID – Your Ultimate Identity Solution! Developed by the ingenious minds of Navaneeth, Thoufeer, Farhan, and Arfan. Experience seamless authentication like never before! Try Synth ID now!</a>.</marquee>
             </div>
   <br>
 
@@ -416,7 +414,7 @@ hr.new2 {
           <?php echo $html ?>
         </div>
         <br>
-
+ 
      </div>
   </div>
   
